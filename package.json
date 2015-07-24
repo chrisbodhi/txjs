@@ -1,0 +1,23 @@
+{
+  "name": "txjs_training_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "hapi": "^8.5.1",
+    "joi": "^6.6.0",
+    "jshint-stylish": "^2.0.1",
+    "lokijs": "^1.3.7",
+    "mocha": "^2.2.5"
+  }
+}

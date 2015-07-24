@@ -1,0 +1,11 @@
+{
+    "preset": "node-style-guide",
+    "fileExtensions": [".js", "jscs"],
+
+    "requireParenthesesAroundIIFE": true,
+    "maximumLineLength": 120,
+    "validateLineBreaks": "LF",
+    "validateIndentation": 4,
+
+    "disallowSpacesInsideObjectBrackets": null
+}

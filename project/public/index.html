@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Node.JS App!</title>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">		
+	</head>
+	<body>
+		<h1>My Node.JS App</h1>
+		<h3>Give us some info:</h3>
+		<form action="/user" method="POST">
+			<label for="name">Name:</label>
+			<input type="text" name="name" />
+			<label for="favoriteNumber">Favorite Number:</label>
+			<input type="text" name="favoriteNumber" />
+			<label for="starred">Star this user?</label>
+			<input type="checkbox" name="starred" />
+			<input type="submit" value="Add User" />
+		</form>
+		<h3>Search</h3>
+		<form id="searchForm">
+			<label for="searchName">Name:</label>
+			<input type="text" name="searchName" />
+			<input type="submit" value="Search!" />
+		</form>
+		<ul id="search-list"></ul>
+		<h3>All Users:</h3>
+		<ul id="user-list"></ul>
+		<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="./index.js"></script>
+	</body>
+</html>
